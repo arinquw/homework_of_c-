@@ -1,0 +1,107 @@
+#include <iostream> 
+using namespace std;
+
+int main() {
+	setlocale(LC_ALL, "RU");
+
+/*
+1) out << "код\tэкран" << endl;
+
+return 0;
+
+
+2) cout << "верх\nниз" << endl;
+
+return 0;
+
+
+3) int number;
+
+cout << "Введите целое число: ";
+cin >> number;
+
+cout << "-----" << endl;
+cout << number << endl;
+cout << "-----" << endl;
+
+return 0;
+    
+
+4) cout << "Он сказал \"да\"." << endl;
+
+return 0;
+
+
+5) cout << "C:\\Temp\\a.cpp" << endl;
+
+return 0;
+
+
+6) int a, b;
+
+cout << "Введите два целых числа: ";
+cin >> a >> b;
+
+cout << a << "\t" << b << endl;
+
+return 0;
+
+
+7) int n;
+
+cout << "Введите число: ";
+cin >> n;
+
+cout << "n\tn+1" << endl;
+cout << n << "\t" << n + 1 << endl;
+
+return 0;
+
+
+8) int variant;
+
+cout << "Номер варианта: ";
+cin >> variant;
+
+cout << "Вариант " << variant << " записан.\n";
+cout << "Ещё раз:\t" << variant << "\n";
+
+return 0;
+
+
+9) cout << "верх/nниз" << endl;
+
+return 0; 
+
+текст на двух строчках
+
+
+10) int a, b, c;
+
+cout << "Введите три числа: ";
+cin >> a;
+cin >> b;
+cin >> c;
+
+cout << a << "\t" << b << "\t" << c << endl;
+
+return 0;
+
+
+11)  cout << "=====" << endl;
+cout << "грачева" << endl;
+cout << "=====" << endl;
+
+return 0;
+
+
+12) отсутствует закрывающая скобка
+
+cout << "Первая строка" << endl;
+
+*/
+
+}
+ 
+  
+    
