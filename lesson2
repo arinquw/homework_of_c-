@@ -1,0 +1,116 @@
+#include <iostream> 
+using namespace std;
+
+int main() {
+	setlocale(LC_ALL, "RU");
+
+/*
+1) int room;
+	cout << "какой номер аудитории? ";
+	cin >> room;
+	cout << "аудитория номер: " << room <<endl;
+
+	return 0;
+
+
+2) int a;
+	int b;
+	cout << "введите число: ";
+	cin >> a;
+	cout << "введите второе число: ";
+	cin >> b;
+	cout << "сумма: " << (a + b) << endl;
+	cout << "разность: " << (a - b) << endl;
+	cout << "произведение: " << (a * b) << endl;
+
+	return 0;
+
+
+3) int a;
+	int b;
+	int c;
+	cout << "введите число: ";
+	cin >> a;
+	cout << "введите второе число: ";
+	cin >> b;
+	cout << "введите третье число: ";
+	cin >> c;
+	cout << "сумма: " << (c + b + a) << endl;
+	cout << "разность: " << (c - b - a) << endl;
+	cout << "произведение: " << (c * b * a) << endl;
+
+	return 0;
+
+
+4) // сумма нужна чтобы смотреть сколько будет при сложении 3 чисел
+	int a;
+	int b;
+	int c;
+	cout << "введите число: ";
+	cin >> a;
+	cout << "введите второе число: ";
+	cin >> b;
+	cout << "введите третье число: ";
+	cin >> c;
+	cout << "сумма: " << (c + b + a) << endl;
+	cout << "разность: " << (c - b - a) << endl;
+	cout << "произведение: " << (c * b * a) << endl;
+
+	return 0;
+
+
+5) int year;
+	cout << "какой у тебя год рождения? ";
+	cin >> year;
+	cout << "год: " << year << endl;
+	cout << "твой год: " << year << endl;
+
+	return 0;
+
+
+6)int a, b;
+	cout << "введите два числапо: ";
+	cin >> a >> b;
+	cout << a << ", " << b << endl;
+
+	return 0;
+
+
+7) int a, b, c;
+	cout << "введите три числа: ";
+	cin >> a >> b >> c;
+	cout << "сумма: " << (a + b + c) << endl;
+	cout << "произведение: " << (a * b * c) << endl;
+
+	return 0;
+
+
+8) int var;
+	cout << "введите номер варианта: " << endl;
+	cin >> var;
+	cout << "вариант" << var << "записан << endl;
+
+	return 0;
+
+
+9) требуется точка с запятой ";"
+
+
+10) "{": не найдена
+несоответствующая лексема
+
+
+11) int a;
+	int b;
+	cout << "введите два числа: ";
+	cin >> a;
+	cin >> b;
+	cout << "ваши числа: " << a << " " << a << " " << b << " " << b << endl;
+
+	return 0;
+
+12) результат один
+
+*/
+
+}
