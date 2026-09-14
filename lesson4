@@ -1,0 +1,127 @@
+#include <iostream> 
+using namespace std;
+
+int main() {
+	setlocale(LC_ALL, "RU");
+
+/*
+
+1) int a, b;
+
+    cout << "Введите два целых числа: ";
+    cin >> a >> b;
+
+    cout << "Сумма: " << a + b << endl;
+    cout << "Разность: " << a - b << endl;
+    cout << "Произведение: " << a * b << endl;
+
+    return 0;
+
+
+2) int a, b, c;
+
+    cout << "Введите три числа: ";
+    cin >> a >> b >> c;
+
+    cout << a << "\t" << b << "\t" << c << endl;
+    cout << c << "\t" << b << "\t" << a << endl;
+
+    return 0;
+
+
+3) int n;
+
+    cout << "Введите целое число: ";
+    cin >> n;
+
+    cout << n << " " << n << " " << n << endl;
+
+    return 0;
+
+
+4) int group;
+
+   cout << "Введите группу: ";
+   cin >> group;
+
+   cout << "грачева" << endl;
+   cout << "Группа " << group << endl;
+   cout << "C++" << endl;
+
+   return 0;
+
+
+5) требуется точка с запятой ";"
+
+int group;
+
+   cout << "Введите группу: ";
+   cin >> group;
+
+   cout << "грачева" << endl;
+   cout << "Группа " << group << endl;
+   cout << "C++" << endl;
+
+   return 0;
+
+
+6) "{": не найдена
+несоответствующая лексема
+
+
+7) большие и маленькие буквы различаются
+Cout << "Привет" << endl;
+cout << "Привет" << endl;
+
+
+8)// программа складывает два числа
+
+int main() {
+    int a, b;
+
+    cin >> a >> b;
+    cout << a + b << endl;
+
+    return 0;
+
+
+9) int a, b, c;
+
+    cout << "Введите три числа: ";
+    cin >> a >> b >> c;
+
+    cout << "Сумма: " << a + b + c << endl;
+    cout << "Произведение: " << a * b * c << endl;
+    cout << a << "\t" << b << "\t" << c << endl;
+
+    return 0;
+
+
+10) int a, b;
+
+    cout << "Введите два числа: ";
+    cin >> a >> b;
+
+    cout << "-----" << endl;
+    cout << a << endl;
+    cout << "-----" << endl;
+
+    cout << "-----" << endl;
+    cout << b << endl;
+    cout << "-----" << endl;
+
+    return 0;
+
+
+11) результат одинаковый
+
+    int a, b;
+
+    cin >> a >> b;
+    cout << a + b << endl;
+
+    return 0;
+
+*/
+
+  }
