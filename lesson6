@@ -1,0 +1,142 @@
+#include <iostream>
+#include <iomanip> // библиотека для обозначения количества знаков
+#include <cmath> // для вычислений корня
+
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "RUS");
+	cout << fixed << setprecision(2); // показывает ровно два знака после точки
+
+	// 1)Длина фрагмента ролика: начало и конец в секундах double (можно 12.5). 
+	// Печать длительности и отдельно длительности в минутах (делить на 60.0).
+	// 
+	//double start;
+	//double end;
+	//double duration; // длительность
+	//
+	//cout << "введите начало ролика:";
+	//cin >> start;
+	//
+	//cout << "и конец ролика: ";
+	//cin >> end;
+	//
+	//duration = end - start; 
+	//duration = duration / 60.0;
+	//cout << "длительность ролика: " << duration << endl;
+
+
+	// 2) Индекс массы: вес кг / (рост_м * рост_м). Оба double. Печать с одним знаком.
+	//
+	//double weight;
+	//double height;
+	//double index; // индекс массы тела
+	//
+	//cout << "введите свой рост в метрах (например 1.65): ";
+	//cin >> height;
+	//
+	//cout << "введите свой вес (например 50.0): ";
+	//cin >> weight;
+	//
+	//index = weight / (height * height);
+	//cout << fixed << setprecision(1); // число в скобках показывает сколько чисел после точки
+	//cout << "ваш индекс: " << index << endl;
+
+
+	// 3) Скидка: цена double, процент int p. К оплате price * (100 - p) / 100.0. Прогнать 2599.90 и 15.
+	//double price;
+	//int discount;
+	//double result;
+	//
+	//cout << "введите цену: ";
+	//cin >> price;
+	//
+	//cout << "введите скидку в процентах: ";
+	//cin >> discount;
+	//
+	//result = price * (100 - discount) / 100.0;
+	//cout << result << endl;
+
+
+	// 4) Два сопротивления последовательно: r1 + r2. 
+	// Параллельно: 1.0 / (1.0/r1 + 1.0/r2). Без проверки на ноль: ноль не подавать.
+	//double r1;
+	//double r2;
+	//double Parsubsequence; // параллельная последовательность
+	//double Possubsequence; // последовательное соединение
+	//cout << fixed << setprecision(2);
+	//
+	//cout << "введите числа для последовательных резисторов: ";
+	//cin >> r1 >> r2;
+	//Possubsequence = r1 + r2;
+	//cout << "последовательное соединение: " << Possubsequence << endl;
+	//
+	//Parsubsequence = 1.0 / (1.0 / r1 + 1.0 / r2);
+	//cout << "параллельное соединение: " << Parsubsequence << endl;
+
+
+	// 5) pow(x, 3) и рядом x * x * x для одного ввода. Напечатать оба — должны быть близки.
+	//double x;
+	//double cube;
+	//double cubePow;
+	//
+	//cout << "введите число: ";
+	//cin >> x;
+	//
+	//cubePow = pow(x, 3);
+	//cube = x * x * x;
+	//cout << cubePow << endl;
+	//cout << cube << endl;
+
+
+	// 6) fabs от разности 0.1+0.2 и 0.3 — модуль ошибки. Печать.
+	//double first;// 0.1
+	//double second; // 0.2
+	//double error; // ошибка
+	//double sum; // сумма 0.1 + 0.2
+	//double cor = 0.3; // правильное число 0.3
+	//
+	//cout << "введите 2 числа с точкой: ";
+	//cin >> first >> second;
+	//
+	//sum = first + second;
+	//error = fabs(sum - cor);
+	//
+	//cout << setprecision(17); // из за числа ошибки такое длинное число
+	//cout << "сумма: " << sum << endl;
+	//cout << "ошибка: " << error << endl;
+
+
+	// 7) Курс валюты: сколько рублей за 1 доллар — double,
+	// сумма в долларах — double, печать рублей с двумя знаками.
+
+	//double rate; // курс валют
+	//double doll; // доллары
+	//double rub; // рубли
+	//
+	//cout << "введите курс долларов в рублях: ";
+	//cin >> rate;
+	//
+	//cout << "введите количество долларов: ";
+	//cin >> doll;
+	//
+	//cout << fixed << setprecision(2);
+	//rub = rate * doll;
+	//cout << "получилось: " << rub << " рублей" << endl;
+
+
+	// 8) Плотность потока: заявок int, часов double. Заявок в час: tickets / hours как дробь.
+
+	//int applications; // количество заявок
+	//double ticketsHours; // заявок в час
+	//double hours;
+	//
+	//cout << "введите количество заявок: ";
+	//cin >> applications;
+	//
+	//cout << "введите количество часов: ";
+	//cin >> hours;
+	//
+	//ticketsHours = applications / hours;
+	//cout << "Заявок в час: " << ticketsHours << endl
+}
