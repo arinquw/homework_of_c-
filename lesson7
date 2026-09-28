@@ -1,0 +1,119 @@
+#include <iostream>
+#include <iomanip> // библиотека для обозначения количества знаков
+#include <cmath> // для вычислений корня
+#include <climits> // просмоттр гранииц типов
+
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "RUS");
+	
+	// 1) Напечатать sizeof для char, int, double, long long, bool. Пять строк.
+	// 
+	//cout << sizeof(int) << endl; // показывает сколько байт занимает тип или переменная
+	//cout << sizeof(char) << endl;
+	//cout << sizeof(double) << endl;
+	//cout << sizeof(long long) << endl;
+	//cout << sizeof(bool) << endl;
+
+
+	// 2) INT_MAX, INT_MIN, LLONG_MAX, LLONG_MIN — четыре строки. Заголовок climits.
+	// 
+	//cout << INT_MIN << endl; // минмум int
+	//cout << INT_MAX << endl;// максимум int
+	//cout << LLONG_MIN << endl; // минмимум long long
+	//cout << LLONG_MAX << endl; // максимум long long 
+
+
+	// 3) Два int 50000 и 50000. Печать произведения как int и как 1LL * a * b.
+	// 
+	//int a = 50000;
+	//int b = 50000;
+	//int wrongResult = a* b;
+	//
+	//long long correctResult = 1LL * a * b;
+	//
+	//cout << "обычное умножение: " << wrongResult << endl;
+	//cout << "умножение через 1LL: " << correctResult << endl;
+
+
+	// 4) Ввод двух int — сторон прямоугольника в пикселях.
+	// Площадь в long long через 1LL. Прогнать 8000 и 4000.
+	// 
+	//int width;
+	//int height;
+	//long long area;
+	//
+	//cout << "\nвведите ширину: ";
+	//cin >> width;
+	//cout << "\nвведите высоту: ";
+	//cin >> height;
+	//area = 1LL * width * height;
+	//cout << "площадь прямоугольника: " << area;
+
+
+	// 5) long long — ввод «байты на диске», печать гигабайт 
+	// целым делением на 1024LL * 1024 * 1024 и остаток байт.
+	// 
+	//long long byte;
+	//int integer; // целое число гигов
+	//int remainder; // остаток
+	//long long gb = 1024LL * 1024 * 1024;
+	//
+	//cout << "введите количество байтов: ";
+	//cin >> byte;
+	//
+	//integer = byte / gb; //  дает количество целых гигабайтов
+	//remainder = byte % gb; // дает оставшиеся байты
+	//
+	//cout << "целые гигабайты: " << integer << "\nостаток: " << remainder << endl;
+
+
+	// 6) номер телефона long long, последние 4 цифры % 10000, первые можно не резать.
+	// 
+	//long long num;
+	//int digit; // последние 4 цифры
+	//
+	//cout << "введите свой номер :";
+	//cin >> num;
+	//
+	//digit = num % 10000; // получение последних 4 цифр
+	//cout << "\nпоследние 4 цифры вашего номера: " << digit;
+
+
+
+	// 7) const double PI = 3.1415926535; ввод радиуса double, длина окружности 2 * PI * r.
+	//
+	//const double PI = 3.1415926535;
+	//double r; // радиус
+	//double lenght; // длина 
+	//
+	//cout << "введите радиус: ";
+	//cin >> r;
+	//
+	//lenght = 2 * PI * r;
+	//cout << "длина окружности: " << lenght << endl;
+
+
+	// 8) const int ACAD = 45; ввод числа академических часов, печать минут.
+	//
+	//const int ACAD = 45;
+	//int  min;
+	//int quantity; // количество
+	//
+	//cout << "введите количество академических часов: ";
+	//cin >> quantity;
+	//
+	//min = quantity * ACAD;
+	//cout << "итого: " << min;
+
+
+	// 9) Секунды в сутках: 24LL * 60 * 60. Печать. 
+	// Затем * 365 — секунды в невисокосном годе, только long long.
+	//
+	//long long secondsInDay = 24LL * 60 * 60;
+	//cout << secondsInDay << endl;
+	//
+	//long long secondsInYear = secondsInDay * 365;
+	//cout << secondsInYear << endl;
+}
