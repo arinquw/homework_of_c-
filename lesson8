@@ -1,0 +1,111 @@
+#include <iostream>
+#include <iomanip> // библиотека для обозначения количества знаков
+#include <cmath> // для вычислений корня
+#include <climits> // просмоттр гранииц типов
+
+using namespace std;
+int main()
+{
+    setlocale(LC_ALL, "RUS");
+
+    // 1) Ввод char — печать символа и кода static_cast<int>.
+
+       //char ch;
+       // 
+       //cout << "введите символ: ";
+       //cin >> ch;
+       // 
+       //cout << static_cast<int>(ch);
+
+
+       // 2) Ввод цифры-символа — значение 0…9 через вычитание '0', затем это значение * 10.
+       //
+       //char d;
+       //
+       //cout << "введите число: ";
+       //cin >> d;
+       //
+       //int value = d - '0';
+       //cout << value * 10;
+
+
+       // 3) Ввод буквы — следующая static_cast<char>(ch + 1). Прогнать A и y.
+
+       //char ch;
+       //cout << "введите букву: ";
+       //cin >> ch;
+       //cout << static_cast <char> (ch + 1);
+
+
+       // 4) Два int — три строки: больше, меньше, равно как 0/1. Скобки вокруг сравнений.
+
+        //int a;
+        //int b;
+        //
+        //cout << "введите 2 числа: ";
+        //cin >> a >> b;
+        //
+        //cout << (a > b) << endl;
+        //cout << (a < b) << endl;
+        //cout << (a == b) << endl;
+
+
+        // 5) Три оценки int — bool allFive как (a==5) * … нельзя умножением bool наобум. 
+        // Честно: три печати (a==5) (b==5) (c==5). Произведение 0/1: (a==5) && (b==5) ещё логика пары 12; сегодня только три факта.
+
+        //int a;
+        //int b;
+        //int c;
+        //bool allFive;
+        //cout << "введите 3 оценки: ";
+        //cin >> a >> b >> c;
+        //
+        //cout << (a == 5) << endl;
+        //cout << (b == 5) << endl;
+        //cout << (c == 5) << endl;
+        //  
+        //allFive = (a == 5) && (b == 5) && (c == 5);
+
+
+        // 6) Два int — дробное частное через static_cast<double>(a)/b. Прогнать 7 2.
+
+        //int a;
+        //int b;
+        //
+        //cout << "введите 2 числа для деления: ";
+        //cin >> a >> b;
+        //
+        //cout << static_cast <double> (a) / b;
+
+
+        // 7) double — отбросить дробь static_cast<int>. Прогнать 4.99 и 0.5.
+
+        //double x = 4.99;
+        //double y = 0.5;
+        //cout << static_cast<int>(x) << endl;
+        //cout << static_cast<int>(y) << endl;
+
+        
+        // 8) char валюты и double суммы — печать сумма, пробел, символ. Прогнать 199.9 и $
+
+        //double a = 199.9;
+        //char currency = '$';
+        //
+        //cout << a << " " << '$' << endl;
+
+
+        // 9) boolalpha: напечатать true и false словами. Заголовок iostream достаточно, манипулятор boolalpha.
+
+        //cout << boolalpha;
+        //
+        //cout << true << " " << endl;
+        //cout << false << " " << endl;
+
+
+        // 10) Kод символа наоборот: ввод int 65, печать static_cast<char>(65) — буква. Не всякий код печатный; учебный ввод 65…90
+
+        //int a;
+        //cin >> a;
+        //cout << static_cast<char>(a);
+        // объясните пожалуйста почему не получается(((
+}
